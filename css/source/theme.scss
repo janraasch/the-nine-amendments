@@ -1,0 +1,233 @@
+/**
+ * Black theme for reveal.js. This is the opposite of the 'white' theme.
+ *
+ * Copyright (C) 2015 Hakim El Hattab, http://hakim.se
+ */
+
+ // This file has been copied over from
+ // ../../bower_components/reveal.js/css/theme/source/black.scss
+
+ // See ../../bower_components/reveal.js/css/theme/README.md
+ // for further explanations on how to create a custom reveal.js theme.
+
+// Default mixins and settings -----------------
+@import "../../bower_components/reveal.js/css/theme/template/mixins";
+@import "../../bower_components/reveal.js/css/theme/template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+@import url(../bower_components/reveal.js/lib/font/source-sans-pro/source-sans-pro.css);
+
+// Curry On Colors
+$orange: #FDAA40;
+$red: lighten(#CE4844, 5);
+$purple: #302E44;
+$light-organge: #fdaa40;
+$pretty-solid-background: rgba(48, 46, 68, 0.8);
+$pretty-transparent-background: rgba(48, 46, 68, 0.5);
+$pastelgray: lighten(#5f6665, 35);
+
+// Override theme settings (see ../../bower_components/reveal.js/css/theme/template/settings.scss)
+$backgroundColor: $purple;
+
+$mainColor: #fff;
+$headingColor: #fff;
+
+$mainFontSize: 30px;
+$mainFont: 'Source Sans Pro', Helvetica, sans-serif;
+$headingFont: 'Source Sans Pro', Helvetica, sans-serif;
+$headingTextShadow: none;
+$headingLetterSpacing: normal;
+$headingTextTransform: uppercase;
+$headingFontWeight: 600;
+$linkColor: $orange;
+$linkColorHover: darken( $linkColor, 15% );
+$selectionBackgroundColor: lighten( $linkColor, 25% );
+
+$heading1Size: 2.5em;
+$heading2Size: 1.6em;
+$heading3Size: 1.3em;
+$heading4Size: 1.0em;
+
+section.has-light-background {
+	&, h1, h2, h3, h4, h5, h6 {
+		color: #222;
+	}
+}
+
+// Theme template ------------------------------
+@import "../../bower_components/reveal.js/css/theme/template/theme";
+// ---------------------------------------------
+
+section[data-background="./resources/barcelona.jpg"] {
+	background: $pretty-transparent-background;
+	#barcelona-2017 {
+		color: $orange;
+	}
+	img[src="./resources/curry-on-logo.png"] {
+    background: none;
+    border: none;
+    box-shadow: none;
+	}
+	blockquote {
+		background: $pretty-solid-background;
+	}
+}
+
+#-math-is-real-no-seriously- {
+	color: $orange;
+}
+
+section[data-background="./resources/curry-on-sponsors-2017.png"] {
+	background: $pretty-transparent-background;
+	h2 {
+		color: $orange;
+
+	}
+}
+
+section[data-background="./resources/security.jpg"] {
+	h2 {
+		color: $orange;
+	}
+	blockquote {
+		background: $pretty-solid-background;
+	}
+}
+
+section[data-background="./resources/elixir.png"] {
+	background: $pretty-transparent-background;
+}
+
+section[data-background="./resources/elixir2.png"] {
+	background: $pretty-transparent-background;
+}
+
+// code
+.reveal pre {
+  box-shadow: none;
+  font-size: 1em;
+  font-family: "Monaco", "Consolas", monospace;
+  margin: 0px;
+
+  code {
+    overflow: visible;
+    border: 0px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+  }
+}
+
+.hljs {
+  display: block;
+  padding: 0.5em;
+  color: $pastelgray;
+  -webkit-text-size-adjust: none;
+}
+
+.hljs-keyword,
+.hljs-tag,
+.css .hljs-class,
+.css .hljs-id,
+.lisp .hljs-title,
+.nginx .hljs-title,
+.hljs-request,
+.hljs-status,
+.clojure .hljs-attribute {
+  color: $red;
+}
+
+.django .hljs-template_tag,
+.django .hljs-variable,
+.django .hljs-filter .hljs-argument {
+  color: #dcdcdc;
+}
+
+.hljs-number,
+.hljs-date {
+  color: $orange;
+}
+
+.dos .hljs-envvar,
+.dos .hljs-stream,
+.hljs-variable,
+.apache .hljs-sqbracket,
+.hljs-name {
+  color: #efdcbc;
+}
+
+.dos .hljs-flow,
+.diff .hljs-change,
+.python .exception,
+.python .hljs-built_in,
+.hljs-literal,
+.tex .hljs-special {
+  color: #efefaf;
+}
+
+.diff .hljs-chunk,
+.hljs-subst {
+  color: #8f8f8f;
+}
+
+.dos .hljs-keyword,
+.hljs-decorator,
+.hljs-title,
+.diff .hljs-header,
+.ruby .hljs-class .hljs-parent,
+.apache .hljs-tag,
+.nginx .hljs-built_in,
+.tex .hljs-command,
+.hljs-prompt {
+  color: $orange;
+}
+
+.hljs-type {
+  color: $red;
+}
+
+.dos .hljs-winutils,
+.ruby .hljs-symbol,
+.ruby .hljs-symbol .hljs-string,
+.ruby .hljs-string {
+  color: $red;
+}
+
+.diff .hljs-deletion,
+.hljs-string,
+.hljs-tag .hljs-value,
+.hljs-preprocessor,
+.hljs-pragma,
+.hljs-built_in,
+.smalltalk .hljs-class,
+.smalltalk .hljs-localvars,
+.smalltalk .hljs-array,
+.css .hljs-rule .hljs-value,
+.hljs-attr_selector,
+.hljs-pseudo,
+.apache .hljs-cbracket,
+.tex .hljs-formula,
+.coffeescript .hljs-attribute {
+  color: $red;
+}
+
+.hljs-shebang,
+.diff .hljs-addition,
+.hljs-comment,
+.hljs-annotation,
+.hljs-pi,
+.hljs-doctype {
+  color: #7f9f7f;
+}
+
+.coffeescript .javascript,
+.javascript .xml,
+.tex .hljs-formula,
+.xml .javascript,
+.xml .vbscript,
+.xml .css,
+.xml .hljs-cdata {
+  opacity: 0.5;
+}

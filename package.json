@@ -1,0 +1,23 @@
+{
+  "name": "notes-curry-on-2017",
+  "version": "0.0.0",
+  "private": true,
+  "devDependencies": {
+    "coffeelint": "^1",
+    "grunt": "^1",
+    "grunt-cli": "^1",
+    "grunt-coffeelint": "0.0.16",
+    "grunt-contrib-connect": "^1",
+    "grunt-contrib-copy": "^1",
+    "grunt-contrib-watch": "^1",
+    "grunt-sass": "^2",
+    "load-grunt-tasks": "^3"
+  },
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+}
