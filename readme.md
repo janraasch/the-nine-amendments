@@ -1,6 +1,11 @@
-# notes-curry-on-2017
+# the-nine-amendments
 
-My notes from Curry On 2017.
+Notes on »A Three-Year Participant Observation of Software Startup Software Evolution« (Andrew J. Ko, 2017).
+
+## References
+
+- Paper: [A Three-Year Participant Observation of Software Startup Software Evolution](http://faculty.washington.edu/ajko/papers/Ko2017AnswerDashReflection.pdf)
+- Author: [Andrew J. Ko](http://faculty.washington.edu/ajko/)
 
 ## Plain ol' markdown
 
@@ -8,7 +13,7 @@ The plain ol' markdown notes are in `notes.md`.
 
 ## GitHub Pages
 
-Go to the [GitHub Page](http://janraasch.github.io/notes-curry-on-2017/) of this repository to view the slides online.
+Go to the [GitHub Page](http://janraasch.github.io/the-nine-amendments/) of this repository to view the slides online.
 
 ## Development
 
