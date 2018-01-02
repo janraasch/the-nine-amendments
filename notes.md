@@ -10,11 +10,57 @@ keywords = [
 ```
 
 Notes:
-Author: http://faculty.washington.edu/ajko
-
 Paper: http://faculty.washington.edu/ajko/papers/Ko2017AnswerDashReflection.pdf
 
-TODO: Intro. Wieso Titel. Wieso Background Bild. Wieso für mich interessant und tevim. Dann geplanter Aufbau: Autor?, Abriss und Diskussion. Gerne auch bei einzelnen Ounkten schon einbringen.
+Intro:
+
+Title: It feels like when talking about software we often focus only on the technical parts and even when we talk about process we still are obsessed with technical details (e.g. CI or Testing in Scrum/Agile). So here are the 9 amendments the
+*cognitive* »Software Constitution« may need. (Hence the background image taken from the US constitution.)
+
+Why interesting for me/tevim: This paper although you might not have guessed it by its title (»[...] Software Evolution«) is mostly focused on social factors. It's about what makes software engineering difficult and as it turns out the technical stuff is quite easy once everything else is clear :)
+
+Outline: Author, Some Claims, Audience adding their own opinions ans stories, More Claims **?**, Wrap-Up, Schedule follow-up?
+
+Please be sure to interrupt me at any time during the talk. This is not a »Hold your questions to the end«-kind of talk.
+
+
+
+## Author
+
+[Andrew J. Ko, Ph.D. @ University of Washington](http://faculty.washington.edu/ajko)
+
+![Andrew](./resources/andrew-j-ko.jpg)
+
+Notes:
+
+Look at http://faculty.washington.edu/ajko. Quickly go through all the affiliations at the top:
+
+- Associate Professor
+- Program Chair, Informatics @ The Information School
+- Computer Science & Engr. (adjunct) @ University of Washington
+- Chief Scientist + Co-Founder @ AnswerDash
+
+Plus, look at on-going projects, e.g. »Software Engineering Expertise«:
+
+> What combination of technical, tactical, and social skills make software engineers effective? Through a series of interviews, surveys, and field work, we're uncovering the fundamental attributes of software engineering expertise.
+
+
+
+## Participant Observation, but why?
+
+Thus far discoveries are heavily biased towards *observable* activities that devs perform.
+
+### Questions For This Paper
+
+- What about *internal emotions* and *cognitive experiences* at work?
+- What does it feel like to be an engineer day to day?
+- Which parts of the job are exhilarating and which parts are dull?
+- What role do social experiences with teammates and managers have on devs' work
+- How do these experiences change and evolve over time?
+
+Notes:
+
+These types of questions are very hard to answer, esspecially the last one. Best case would be to have every dev keep a very detailed diary with these (and more) questions in mind on a day to day basis. Of course that is impossible, hence the author gave it a try using the form of a »Participant Observation«.
 
 
 

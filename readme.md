@@ -2,6 +2,8 @@
 
 Notes on »A Three-Year Participant Observation of Software Startup Software Evolution« (Andrew J. Ko, 2017).
 
+I will present these notes to my fellow coworkers at [tevim UG](https://www.tevim.com) and some friends of the trait. Still, you might find some interesting stuff in this repo, but prepare yourself for a mixture of German and English as these are really just *notes*, nothing more and nothing less :)
+
 ## References
 
 - Paper: [A Three-Year Participant Observation of Software Startup Software Evolution](http://faculty.washington.edu/ajko/papers/Ko2017AnswerDashReflection.pdf)
